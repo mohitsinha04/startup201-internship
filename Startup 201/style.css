@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    
+}
+::placeholder{
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+
+
+div.container{
+    width: 900px;
+    height: 610px;
+    margin: 35px auto;
+    font-family: sans-serif;
+}
+div.main {
+    width: 400px;
+    padding: 10px 50px 25px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    float: left;
+    margin-top: 150px;
+    justify-content: center;
+    margin-left: 200px;
+    opacity: 1;
+}
+
+input[type=text],input[type=password]{
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-width: 0.5px;
+    border-radius: 4px;
+}
+
+center{
+    font-size: 32px;
+}
+input[type=button]{
+    font-size: 12px;
+    background: linear-gradient(#3351BC 5%, #1444E8 100%);
+    text-align: center;
+    text-emphasis-color: white;
+    cursor: pointer;
+    width: 103%;
+    border-radius: 5px;
+    padding: 15px 32px;
+    padding: 10px 10px;
+    outline: none;
+    color: white;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50%;
+}
+.button{
+    color: lavender;
+}
+.loginhead{
+    font-size: 1.3em;
+}
+label{
+    text-shadow: 0 1px 0 #fff;
+    font-size: 13px;
+    font-weight: lighter
+}
