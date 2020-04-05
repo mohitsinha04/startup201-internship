@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css"/>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div class="containers">
+            <div class="mains">
+                <p class="loginhead">Login on Professearch</p>
+                <form id="form_id" method="post" name="myform">
+                    <div>
+                    <input type="text" name="Email" id="username" placeholder="Email Address" class="hello"/>
+                    </div>
+                    <div>
+                        <input type="password" name="Password"  id="password" class="pwd" placeholder="Password" class="hello">
+                        <i id="pass-status" class="fa fa-fw fa-eye field-icon toggle-password" aria-hidden="true" onclick="show(password)"></i>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="yes" value="yes">
+                        <label for="yes" class="sign">Keep me signed in.</label><br>
+                        <p class="user">Forget Password</p>
+                    </div>
+                    <p>
+                        <input type="button" value="LOG IN NOW" id="submit" onclick="validate()"/>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
