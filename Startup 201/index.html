@@ -4,6 +4,7 @@
         <title>Login Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css"/>
+        <link href="fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> 
         <script src="./script.js"></script>
     </head>
     <body>
@@ -14,14 +15,17 @@
                     <div>
                     <input type="text" name="Email" id="username" placeholder="Email Address" class="hello"/>
                     </div>
-                    <div>
-                        <input type="password" name="Password"  id="password" class="pwd" placeholder="Password" class="hello">
-                        <i id="pass-status" class="fa fa-fw fa-eye field-icon toggle-password" aria-hidden="true" onclick="show(password)"></i>
+                    <div style="display: inline-flex;">
+                        <input type="password" name="Password"  id="password" class="pwd" placeholder="Password" class="hello"
+                        />
+                        <i class="fas fa-eye field-icon toggle-password" style="padding-top: 15px;margin-left: -25px;" aria-hidden="true" onclick="show(password)"></i>
+                        <!--<i id="pass-status" class="fa fa-fw fa-eye field-icon toggle-password" aria-hidden="true" onclick="show(password)">-->
+</i>
                     </div>
                     <div>
                         <input type="checkbox" name="yes" value="yes">
                         <label for="yes" class="sign">Keep me signed in.</label><br>
-                        <p class="user">Forget Password</p>
+                        <p class="user">Forgot Password</p>
                     </div>
                     <p>
                         <input type="button" value="LOG IN NOW" id="submit" onclick="validate()"/>
